@@ -1,0 +1,95 @@
+/* RESET */
+
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+a, a:link, a:visited  {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+nav, footer, header, section, main {
+	display: block;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	background: none;
+	cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+	outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+/* Atoms */
+
+.Centered { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.FlexRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.FlexRow.Wide {
+	justify-content: space-between;
+}
+
+.FlexCol { 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.FlexCol.Wide { 
+	justify-content: space-between;
+}

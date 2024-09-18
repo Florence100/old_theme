@@ -1,0 +1,37 @@
+:root {
+	/* colors */
+	--primary-color        : #F54C0BFF;
+	--secondary-color      : #24313DFF;
+	--secondary-dark-color : #1C252EFF;
+	--bg-light-color       : #FFFFFFFF;
+	--bg-dark-color        : var(--secondary-color);
+	--bg-wrapper-color     : rgba(36, 49, 61, 0.8);
+	--text-light-color     : #FFFFFFFF;
+	--text-dark-color      : #191919;
+
+	/* sizes */
+	--content-max-width     : 62.5rem;
+	--content-width         : 90%;
+	--content-width-mobile  : 100%;
+	
+	--margin-xl  : 3rem;
+	--margin-l   : 2rem;
+	--margin-m   : 1.5rem;
+	--margin-s   : 1rem;
+	--margin-xs  : 0.75rem;
+	--margin-2xs : 0.5rem;
+
+	--font-size-2xl : 1.75rem;
+	--font-size-xl  : 1.5rem;
+	--font-size-l   : 1.25rem;
+	--font-size-m   : 1rem;
+	--font-size-s   : 0.875rem;
+	--font-size-xs  : 0.75rem;
+}
+
+/* break points:
+	tablet: 1279px;
+	mobal-large: 767px;
+	mobal-medium: 560px;
+*/
+
